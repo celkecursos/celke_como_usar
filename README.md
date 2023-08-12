@@ -20,6 +20,9 @@ O índice de preparação é uma área intermediária entre o diretório de trab
 ### git add <file>
 ### git add README.md
 
+Adicionar todos os arquivos modificados
+### git add .
+
 Verificar o status do arquivo no repositório
 ### git status
 
