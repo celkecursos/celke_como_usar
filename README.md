@@ -13,3 +13,11 @@ Adicionar o arquivo criado, adicionar arquivo ao índice de preparação (stagin
 O índice de preparação é uma área intermediária entre o diretório de trabalho (working directory) e o repositório Git
 ### git add <file>
 ### git add README.md
+
+Representa um conjunto de alterações em um ponto específico da história do seu projeto, registra apenas as alterações adicionadas ao índice de preparação.
+O comando -m permite que insira a mensagem de commit diretamente na linha de comando
+### git commit -m "Criar o arquivo readme"
+
+Enviar os commits locais, para um repositório remoto.
+### git push <remote> <branch>
+### git push origin 1.0
